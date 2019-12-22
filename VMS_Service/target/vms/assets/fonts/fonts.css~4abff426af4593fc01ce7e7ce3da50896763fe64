@@ -1,0 +1,41 @@
+
+  @font-face {
+    font-family: 'Lato-Regular';
+    src: url(/assets/fonts/lato-regular.eot);
+    src: url(/assets/fonts/lato-regular.eot?iefix) format('eot'),
+         url(/assets/fonts/lato-regular.woff) format('woff'),
+         url(/assets/fonts/lato-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(/assets/fonts/lato-bold.eot);
+    src: url(/assets/fonts/lato-bold.eot?iefix) format('eot'),
+         url(/assets/fonts/lato-bold.woff) format('woff'),
+         url(/assets/fonts/lato-bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Semibold';
+    src: url(/assets/fonts/proxima-nova-semibold.eot);
+    src: url(/assets/fonts/proxima-nova-semibold.eot?iefix) format('eot'),
+         url(/assets/fonts/proxima-nova-semibold.woff) format('woff'),
+         url(/assets/fonts/proxima-nova-semibold.ttf) format('truetype');
+    
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('./proxima_nova_regular-webfont.eot');
+    src: url('./proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('./proxima_nova_regular-webfont.woff') format('woff'),
+         url('./proxima_nova_regular-webfont.ttf') format('truetype'),
+         url('./proxima_nova_regular-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

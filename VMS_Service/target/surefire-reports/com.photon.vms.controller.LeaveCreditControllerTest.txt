@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.photon.vms.controller.LeaveCreditControllerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.146 s - in com.photon.vms.controller.LeaveCreditControllerTest

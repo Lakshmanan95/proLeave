@@ -1,0 +1,566 @@
+
+body {
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.lms_container{
+	/* common scss */
+	// height: 1024px;
+	ul {
+		list-style: none;
+	}
+	.lms_mar10 {
+		margin: 10px 0;
+	}
+	.cl_bgcolor, .cf_bgcolor, .pl_bgcolor, .lop_bgcolor, .od_bgcolor, .used_bgcolor, .hl_bgcolor {
+		height: 14px;
+		width: 14px;
+		border-radius: 10px;
+		display: inline-block;
+		margin-right:10px;
+	}
+	.bg_active {
+		color: #FFFFFF !important;
+		font-family: proxima_nova_altbold;
+		letter-spacing: 1px;
+		.cl_bgcolor, .cf_bgcolor, .pl_bgcolor, .lop_bgcolor, .od_bgcolor {
+			background: #ffffff;
+		}
+	}
+	.bg_cl_active {	background: #FEBD57;}
+	.bg_cf_active { background: #49D1E3;}
+	.bg_pl_active { background: #5281F9;}
+	.bg_lop_active { background: #DF485B;}
+	.bg_od_active { background: #7ED321;}
+
+	.cl_color { color: #FEBD57;}
+	.cf_color {	color: #49D1E3;}
+	.pl_color {	color: #5281F9;}
+	.od_color {	color: #7ED321;}
+	.lop_color {color: #DF485B;}
+	.used_color {color: #fd5ea3;}
+
+	.cl_bgcolor { background-color: #DDCC64;}
+	.cf_bgcolor {	background-color: #49D1E3;}
+	.pl_bgcolor {	background-color: #5281F9;}
+	.od_bgcolor {	background-color: #7ED321;}
+	.lop_bgcolor {background-color: #DF485B;}
+	.used_bgcolor {background-color: #fd5ea3;}
+	.hl_bgcolor {background-color: #D07CED;}
+	/*common scss ends here */
+	
+	.lms_lft_side {		
+		padding:0;
+		ul {
+			// height: 100%;
+			padding: 0;
+			background-image: linear-gradient(-180deg, #3691EA 0%, #38C8CA 100%);
+			li {
+				text-align: center;
+				line-height: 60px;
+			}
+			.activeImg {
+				background: #50abe9;
+			}
+		}
+	}
+	.lms_rgt_side {
+		.lms_logo_sec {
+			line-height: 50px;
+			border-bottom: 1px solid #DDDFE1;
+			background: #ffffff;
+			h6 {
+				font-family: 'proxima_nova_ltsemibold';
+				font-size: 18px;
+				color: #586C7F;
+				letter-spacing: 2px;
+				display: inline-block;
+				margin-top: 10px;
+				padding-left: 15px;
+			}
+			span {
+				color: #3F6380;
+				padding-right: 10px;
+			}
+		}
+		.lms_cont_sec {
+			// height: 100%;
+			display : table-cell;
+			height : 80%;
+			.lms_col_first {
+				padding: 0;
+				height: 430px;
+        #Accordion {
+          .item {
+            a {
+              font-family: 'proxima_nova_ltsemibold';
+              font-size: 14px;
+              color: #91A4B2;
+              letter-spacing: 2.1px;
+              padding: 0 0 0 30px;
+              text-decoration: none;
+							display: block;
+							text-transform: uppercase;
+            }
+          }
+        }
+				ul {
+					padding: 0;
+					margin: 0;
+					height: 220px;
+					overflow-y: auto;
+					li {
+						cursor: pointer;
+						letter-spacing: 1px;
+						padding: 10px 0;
+						padding-left: 30px;
+						color: #91A4B2;
+					}
+				}
+				table {
+					width: 60%;
+					margin-top: 10px;
+					tr {
+						th {
+							font-size: 14px;
+							color: #91A4B2;
+						}
+						td {
+							font-size: 14px;
+							color: #91A4B2;
+							font-family: 'proxima_nova_ltsemibold';
+						}
+					}
+				}
+				#history {
+					height: 335px;
+					overflow-y: auto;
+				}
+				.lms_history {
+					padding: 10px 15px 10px 30px;
+					border-bottom: 1px solid #DDDFE1;
+					.lms_lvtype {
+						font-size: 16px;
+						font-family: 'proxima_nova_ltsemibold';
+					}
+					.lms_days {
+						color: #3F6380;
+						margin-left: 3px;
+					}
+					.lms_status {
+						font-size: 12px;
+						padding: 3px 10px;
+						border-radius: 10px;
+					}
+					.lms_status_pending {
+						color: #D07CED;
+						border: 1px solid #D07CED;
+					}
+					.lms_status_approved {
+						color: #7ED321;
+						border: 1px solid #7ED321;
+					}
+					.lms_status_rejected {
+						color: #DF485B;
+						border: 1px solid #DF485B;
+					}
+				}
+			}
+			.lms_col_second {
+				padding: 40px;
+				background: #EEF1F2;
+				.lms_chart {
+					//padding-bottom: 30px;
+					img {
+						position: relative;
+            width: 65%;
+					}
+					.text-center {
+						position: absolute;
+						top: 37%;
+						left: 0;
+						right: 0;
+						p {
+							font-size: 28px;
+							font-family: 'proxima_nova_ltsemibold';
+							color: #586C7F;
+							letter-spacing: 1px;
+							margin-bottom: 0;
+						}
+						span {
+							font-size: 14px;
+							color: #5C5C5C;
+							letter-spacing: 2px;
+						}
+					}
+				}
+				.lms_leave_details {
+					padding-top: 15px;
+					padding-bottom: 15px;
+					border-bottom: 1px solid #DDDFE1;
+					h6 {
+						font-size: 14px;
+						color: #586C7F;
+						letter-spacing: 2.1px;
+						display: inline;
+					}
+					span {
+						&:first-child {
+							color: #91A4B2;
+							font-size: 14px;
+							margin-right: 15px;
+						}
+						&:last-child {
+							font-size: 14px;
+							color: #586C7F;
+							font-family: 'proxima_nova_ltsemibold';
+						}
+					}
+				}
+				.lms_date {
+					// padding-top:20px;
+					span, input[type=text] {
+						opacity: 0.85;
+						color: #91A4B2;
+						font-size: 14px;
+					}
+					input[type=text] {
+						width: 100%;
+						position: relative
+					}
+					textarea {
+						width: 100%;
+						resize: none;
+						border-radius: 3px;
+						border-color: #E1E6E9;
+						margin-bottom: 15px;
+					}
+				}
+				.lms_chart_details {
+					display: flex;
+					align-items: center;
+					.lms_leave_chart {
+						width: 100%;
+						h6 {
+							font-family: 'proxima_nova_ltsemibold';
+							font-size: 16px;
+							color: #586C7F;
+							letter-spacing: 2px;
+						}
+						ul {
+							padding: 0;
+							column-count: 2;
+							li {
+								font-size: 16px;
+								color: #91A4B2;
+								letter-spacing: 1px;
+								padding-right: 20px;
+								line-height: 30px;
+							}
+						}
+					}
+				}
+				button {
+					width: 45%;
+					font-size: 14px;
+					font-family: 'proxima_nova_ltsemibold';
+					color: white;
+					border-radius: 3px;
+				}
+				.reset_btn {
+					background: #868E96;
+				}
+				.sub_btn {
+					background: #3D6288;
+					float: right;
+				}
+			}
+			.lms_col_third {
+				padding: 13px 30px;
+				background-image: linear-gradient(-180deg, #3D6288 0%, #426474 100%);
+				h6 {
+					font-size: 14px;
+					font-family: 'proxima_nova_ltsemibold';
+					color: #8FA3B9;
+					letter-spacing: 2.1px;
+				}
+				.lms_timeoff {
+					ul {
+						padding: 0;
+						column-count: 3;
+						li {
+							font-size: 14px;
+							color: #D4DDE4;
+							line-height: 36px;
+						}
+					}
+        }
+        .lms_datepicker {
+          padding: 10px 0;
+          .datepicker {
+            width: 100%;
+            .datepicker-days {
+              table {
+                width: 100%;
+                thead {
+                  tr {
+                    .datepicker-switch  {
+                      pointer-events: none;
+                    }
+                    th {
+                      color: #EAEEF2;
+                      font-family: 'proxima_nova_ltsemibold';
+                      letter-spacing: 2px;
+                      &:hover {
+                        background: none;
+                      }
+                    }
+                  }
+                }
+                tbody {
+                  tr {
+                    line-height: 30px;
+                    td {
+                      color: #EAEEF2;
+                      &:hover {
+                        background: none;
+                      }
+                    }
+                    .old {
+                      color: #86A0B8;
+                    }
+                    .new {
+                      color: #86A0B8;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+				.lms_holidays {
+					text-align: left;
+					table {
+						width: 100%;
+						tr {
+							td {
+								font-size: 14px;
+								color: #D4DDE4;
+								line-height: 34px;
+								&:nth-child(2) {
+									text-transform: uppercase;
+								}
+							}
+						}
+					}
+				}
+			}
+			.lms_req_rep {
+				.nav-tabs {
+          padding-top: 15px;
+					border-bottom: none;
+					.nav-link {
+						border: none;
+            color: #586C7F;
+            padding: 1rem;
+					}
+					.active {
+						border-bottom: 2px solid #DF485B;
+						font-family: 'proxima_nova_ltsemibold';
+					}
+        }
+        .tab-content {
+          #request {
+           table {
+             thead {
+               tr {
+                 th {
+                   text-transform: uppercase;
+                   color: #91A4B2;
+                   font-size: 14px;
+                   letter-spacing: 2px;
+                 }
+               }
+             }
+           }
+           .table-striped {              
+             tbody {
+               tr {
+                 &:nth-of-type(odd) {
+                   background-color: #FAFBFE;
+                 }
+               }
+             }
+           }
+          }
+          #reports {
+            button {
+              margin: 10px;
+              border-radius: 20px;
+            }
+            .btn-bg-white {
+              background: #fff;
+              border: 1px solid #91A4B2;
+              color: #91A4B2;
+              font-family: 'proxima_nova_ltsemibold';
+            }
+            .lms_btns {
+              margin: 10px 0 30px 0;
+            }
+            table {
+              thead {
+                tr {
+                  th {
+                    text-transform: uppercase;
+                    color: #91A4B2;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                  }
+                }
+              }
+              tbody {
+                .approved {
+                  color: #7ED321;
+                }
+                .rejected {
+                  color: #DF485B;
+                }
+                td {
+                  &:nth-child(9) {
+                    text-transform: uppercase;
+                  }
+                  &:last-child {
+                   text-transform: uppercase;
+                  }
+                }
+              }
+            }
+            .lms_export {
+              padding-bottom: 15px;
+              span {
+                font-family: 'proxima_nova_ltsemibold';
+                color: #586C7F;
+                padding-right: 10px;
+              }
+              i {
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                padding: 10px;
+                background-color: #007bff;
+                color: white;
+              }              
+            }            
+          }
+        }
+			}
+		}
+	}
+}
+.gj-datepicker {
+	.input-group-addon {
+		position: absolute !important;
+    right: 15px;
+    top: 1px;
+    z-index: 99;
+    background: white;
+    border: 0;
+	}
+}
+@media (max-width: 1200px) {
+	.lms_container {
+    .lms_rgt_side {
+      .lms_logo_sec {
+        line-height: 30px;
+        h6 {
+          padding-left: 0;
+        }
+        .navbar {
+          padding: 0.5rem 0.5rem;
+          .navbar-nav {
+            flex-direction: row;
+            li {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+	}
+}
+
+@media (min-width: 1200px) {
+	.lms_container {
+		.lms_lft_side {
+			flex: 0 0 5%;
+			max-width: 5%;
+		}
+		.lms_rgt_side {
+			flex: 0 0 95%;
+      max-width: 95%;
+      .lms_cont_sec {
+        .lms_col_first {
+          #Accordion {
+            .item {
+              .collapse {
+                display: block;
+              }
+              a {
+                pointer-events: none;
+              }
+            }
+          }
+        }
+      }
+		}
+	}
+}
+
+@media (min-width: 768px) {
+  .lms_container {
+    .lms_rgt_side {
+      .lms_cont_sec {
+        .lms_col_first {
+          #Accordion {
+            .item {
+              .collapse {
+                display: block;
+              }
+              a {
+                pointer-events: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+	.lms_container {
+		.lms_rgt_side {
+			.lms_cont_sec {
+				.lms_col_second {
+					padding: 20px 15px;
+					.lms_chart {
+						order: 2;
+					}
+					.lms_chart_details {
+						order: 1;
+						.lms_leave_chart {
+							ul {
+								display: inline-flex;
+								li {
+									padding-right: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

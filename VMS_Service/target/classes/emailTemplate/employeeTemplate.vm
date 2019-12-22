@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=windows-1252'>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    p,
+    table {
+        font-family: Arial, sans-serif;
+        color: #222;
+    }
+</style>
+
+<body cz-shortcut-listen='true' class='color:#313332;'>
+    <div class='gmail_quote' style='width:100%;margin: 0 auto;'><u></u>
+        <div style='margin:0 auto;padding:0; width:730px;'>
+
+
+            <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                <tbody>
+                    <tr>
+                        <td align='center'
+                            style='background-image:url("https://pulse.photoninfotech.com/pulse/sites/default/files/vms_mail_template_bg.png");background-repeat: no-repeat;'>
+                            <a href='https://photon.okta.com' target='_blank'> <img alt='vms' border='0'
+                                    src='https://pulse.photoninfotech.com/pulse/sites/default/files/vms_mail_logo.png'
+                                    style='padding: 20px 0px;'> </a>
+                            <table align='center' border='0' cellpadding='0' cellspacing='0'
+                                style='width:600px; background-color: rgb(255, 255, 255);box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.45);border: 1px solid #ccc; border-radius: 5px;'>
+                                <tbody>
+                                    <tr>
+                                        <td style='font-size:0'>&nbsp;</td>
+                                        <td style='border-radius:6px' width='645'>
+                                            <table bgcolor='#ffffff' border='0' cellpadding='0' cellspacing='0'
+                                                width='100%'>
+                                                <tbody>
+                                                    <tr>
+                                                        <td align='left'
+                                                            style='color:#313332;font-size: 20px;line-height:46px;padding: 4% 0% 0% 0%;text-align: -webkit-center;'>
+                                                            <span
+                                                                style='font-weight:400;font-size: 20px;font-family:\"Open Sans\", sans-serif'>$title
+                                                            </span> </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 1% 0% 0% 0%;text-align: -webkit-center;font-size:16px;'>
+                                                            <span
+                                                                style='font-size: 16px;font-family:\"Open Sans\", sans-serif;font-weight:100;'>This
+                                                                is to intimate that $team #if($adminSize <= 0)<b>
+                                                                    $mailObject.RMName</b> #end has $status
+                                                                    your</span> </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 1% 0% 0% 0%;text-align: -webkit-center;font-size:16px;'>
+                                                            <span
+                                                                style='font-size:16px;font-family:\"Open Sans\", sans-serif;font-weight:100;'>revocation
+                                                                request
+                                                                as per the following details</span> </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table style='width:50%;margin: 0 auto;'>
+                                                <tbody>
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>Name</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.employeeName</span> </td>
+                                                    </tr>
+                                                    <tr align='left' style='font-size: 14px;'>
+                                                        <td style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>Employee ID</span>
+                                                        </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.employeeCode</span> </td>
+                                                    </tr>
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>Leave Type</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.leaveType</span> </td>
+                                                    </tr>
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>From Date</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.fromDate</span> </td>
+                                                    </tr>
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>To Date</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.toDate</span> </td>
+                                                    </tr>
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>No of Days</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.noOfDays</span> </td>
+                                                    </tr>
+                                                    #if($status == 'rejected' && $revokeReason)
+                                                    <tr style='font-size: 14px;'>
+                                                        <td align='left' style='color:#5f6e74;width:50%;padding: 5% 0% 0% 5%;'>
+                                                            <span>Reason of Rejection</span> </td>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 5% 0% 0% 5%;font-weight:600;'>
+                                                            <span>$mailObject.revocationAprRejReason</span> </td>
+                                                    </tr>
+                                                    #end
+
+                                                </tbody>
+                                            </table>
+
+                                            <table bgcolor='#ffffff' border='0' cellpadding='0' cellspacing='0'
+                                                width='100%' style='padding: 0% 0% 6% 0%;'>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td align='left'
+                                                            style='color:#5f6e74;padding: 2% 0% 0% 0%;text-align: -webkit-center;font-size:16px;'>
+                                                            <span
+                                                                style='font-size:15px;font-family:\"Open Sans\", sans-serif;font-weight:100;'>You
+                                                                can view the leave request by clicking on the below
+                                                                link</span><br> <a
+                                                                href='https://corp-apps.photon.in/vms/#/review'
+                                                                style='color:#e68e21;font-size: 14px;font-family:\"Open Sans\", sans-serif;'>https://corp-apps.photon.in/vms/#/review</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td style='font-size:0'>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+             <table width='100%' align='center' border='0' cellpadding='0' cellspacing='0'
+                                style='padding: 10px;font-size:16px;'>
+                                <tbody>
+                                    <tr>
+                                        <td align='center'> <span
+                                                style='color:#5f6e74;font-family:\"Open Sans\", sans-serif;'>Regards,</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align='center'> <span
+                                                style='color:#000;font-family:\"Open Sans\", sans-serif;font-weight:600;padding: 7px;'>Vacation
+                                                Management System</span> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+        </div>
+    </div>
+</body>
+
+</html>

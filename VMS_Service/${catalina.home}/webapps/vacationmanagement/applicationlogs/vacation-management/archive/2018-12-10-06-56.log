@@ -1,0 +1,5 @@
+2018-Dec-10 18:55:43 PM [main] INFO  com.photon.vms.Application - Starting Application on CHL104577 with PID 8204 (started by karthigaiselvan_r in C:\Users\karthigaiselvan_r\java workspace\vms)
+2018-Dec-10 18:55:43 PM [main] INFO  com.photon.vms.Application - No active profile set, falling back to default profiles: default
+2018-Dec-10 18:55:48 PM [main] INFO  com.photon.vms.Application - Started Application in 4.68 seconds (JVM running for 5.965)
+2018-Dec-10 18:55:52 PM [http-nio-9090-exec-1] INFO  com.photon.vms.controller.HomeController - Leave request 104577
+2018-Dec-10 18:55:53 PM [http-nio-9090-exec-1] INFO  com.photon.vms.dao.impl.EmployeeHomeDAOImpl - Loggeduser infoHikariProxyResultSet@711085444 wrapping SQLServerResultSet:2

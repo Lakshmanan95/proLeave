@@ -1,0 +1,101 @@
+.lms_container ul {
+    list-style: none; 
+}
+.lms_container .lms_mar10 {
+    margin: 10px 0; 
+}
+.lms_container .clbgcolor, .lms_container .cfbgcolor, .lms_container .plbgcolor, .lms_container .lopbgcolor, .lms_container .odbgcolor, .lms_container .usedbgcolor, .lms_container .hlbgcolor {
+   height: 14px;
+   width: 14px;
+   border-radius: 10px;
+   display: inline-block;
+   margin-right: 10px; 
+}
+.lms_container .bgactive {
+   color: #FFFFFF !important;
+   font-family: 'proxima_nova_altbold';
+   letter-spacing: 1px; 
+}
+.lms_container .bgactive .clbgcolor, .lms_container .bgactive .cfbgcolor, .lms_container .bgactive .plbgcolor, .lms_container .bgactive .lopbgcolor, .lms_container .bgactive .odbgcolor {
+    background: #ffffff; 
+}
+.lms_container .bgclactive {
+    background: #FEBD57; 
+}
+.lms_container .bgcfactive {
+   background: #49d0e2; 
+}
+.lms_container .bgplactive{
+   background: #5281F9; 
+}
+.lms_container .bglopactive {
+   background: #DF485B; 
+}
+.lms_container .bgodactive {
+   background: #7ED321; 
+} 
+.lms_container .clcolor {
+   color: #FEBD57; 
+}
+.lms_container .cfcolor {
+    color: #49d0e2; 
+}
+.lms_container .plcolor {
+    color: #5281F9; 
+}
+.lms_container .odcolor {
+    color: #7ED321; 
+}
+.lms_container .lopcolor {
+    color: #DF485B; 
+}
+.lms_container .usedcolor {
+    color: #fd5ea3; 
+}
+.lms_container .clbgcolor {
+    background-color: #DDCC64; 
+}
+.lms_container .cfbgcolor {
+    background-color: #49d0e2; 
+}
+.lms_container .plbgcolor {
+    background-color: #5281F9; 
+}
+.lms_container .odbgcolor {
+    background-color: #7ED321; 
+}
+.lms_container .lopbgcolor {
+    background-color: #DF485B; 
+}
+.lms_container .usedbgcolor {
+    background-color: #fd5ea3; 
+}
+.lms_container .hlbgcolor {
+    background-color: #D07CED; 
+}
+
+.lms_container .lms_rgt_side .lms_cont_sec .lms_col_first #Accordion .item .acc-head {
+    font-family: 'proxima_nova_ltsemibold';
+    font-size: 14px;
+    color: #91A4B2;
+    letter-spacing: 2.1px;
+    padding: 0 0 0 30px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase; 
+}
+.lms_container .lms_rgt_side .lms_cont_sec .lms_col_third h6 {
+    font-size: 14px;
+    font-family: 'proxima_nova_ltsemibold';
+    color: #8FA3B9;
+    letter-spacing: 2.1px; 
+}
+
+@media (min-width: 1200px) {
+    .lms_container .lms_rgt_side .lms_cont_sec .lms_col_first #Accordion .item .collapse {
+        display: block; 
+    }
+    .lms_container .lms_rgt_side .lms_cont_sec .lms_col_first #Accordion .item a {
+        pointer-events: none; 
+    } 
+}

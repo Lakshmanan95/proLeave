@@ -1,0 +1,8 @@
+com\photon\vms\controller\RevocationControllerTest.class
+com\photon\vms\TestConfig.class
+com\photon\vms\controller\EncashmentControllerTest.class
+com\photon\vms\controller\ReviewControllerTest.class
+com\photon\vms\controller\FinanceControllerTest.class
+com\photon\vms\controller\FreezeControllerTest.class
+com\photon\vms\controller\HomeControllerTest.class
+com\photon\vms\controller\LeaveCreditControllerTest.class

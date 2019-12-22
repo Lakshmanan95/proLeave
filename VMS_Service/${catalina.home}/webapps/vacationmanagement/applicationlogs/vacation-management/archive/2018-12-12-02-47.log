@@ -1,0 +1,2 @@
+2018-Dec-12 14:47:36 PM [http-nio-9090-exec-8] INFO  com.photon.vms.controller.HomeController - Leave request 104577
+2018-Dec-12 14:47:36 PM [http-nio-9090-exec-8] INFO  com.photon.vms.dao.impl.EmployeeHomeDAOImpl - Loggeduser infoHikariProxyResultSet@871664055 wrapping SQLServerResultSet:4

@@ -1,0 +1,97 @@
+// $(function($) {
+// 	daysOfWeekDisabled: [0, 6]
+// 	$.fn.datepicker.dates.en = {
+// 		days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+// 		daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+// 		daysMin: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+// 		months: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+// 		'August', 'September', 'October', 'November', 'December'],
+// 		monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+// 		clear: 'Clear'
+		
+// 	};
+// });
+
+// $(document).ready(function(){
+//   	$('#dateTimePage').datepicker({
+		  
+// 		language:'en'
+		
+//   	});
+// 		// $('thead tr th:eq(0)').html('&lsaquo;');
+// 		// $('thead tr th:eq(2)').html('&rsaquo;');
+
+// 		$('.fromtoDate').datepicker();
+// 		$('#toDate').datepicker();
+
+// 		$('#lms_default').show();
+// 		$('#lms_review').hide();
+// 		$('.lms_lft_side ul li:eq(0)').addClass('activeImg');
+		
+// 		$(".lms_lft_side ul li:eq(0)").click(function(){
+// 			$('.lms_lft_side ul li:eq(0)').addClass('activeImg');
+// 			$('.lms_lft_side ul li:eq(1)').removeClass('activeImg');
+// 			$("#lms_default").show();
+// 			$('#lms_review').hide();
+// 		});
+
+// 		$(".lms_lft_side ul li:eq(1)").click(function(){
+// 			$('.lms_lft_side ul li:eq(0)').removeClass('activeImg');
+// 			$('.lms_lft_side ul li:eq(1)').addClass('activeImg');
+// 			$("#lms_default").hide();
+// 			$('#lms_review').show();
+// 		});
+
+// 		$(".lms_rgt_side .navbar-nav li:eq(0) a").click(function() {
+// 			$("#lms_default").show();
+// 			$('#lms_review').hide();
+// 		});
+  
+// 		$(".lms_rgt_side .navbar-nav li:eq(1) a").click(function() {
+// 			$("#lms_default").hide();
+// 			$('#lms_review').show();
+// 		});
+
+// 		var winHeight = $(window).height() - 20;
+// 		$('.lms_lft_side ul').css('height', winHeight);
+
+// 		$('.lms_col_first #leaveTypes ul li:eq(0)').addClass('bg_active bg_cl_active');
+
+// 		$('.lms_col_first #leaveTypes ul li:eq(0)').click(function() {
+// 			$('.lms_col_first #leaveTypes ul li:eq(0)').addClass('bg_active bg_cl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(1)').removeClass('bg_active bg_cf_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(2)').removeClass('bg_active bg_pl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(3)').removeClass('bg_active bg_lop_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(4)').removeClass('bg_active bg_od_active');
+
+// 		});
+// 		$('.lms_col_first #leaveTypes ul li:eq(1)').click(function() {
+// 			$('.lms_col_first #leaveTypes ul li:eq(1)').addClass('bg_active bg_cf_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(2)').removeClass('bg_active bg_pl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(3)').removeClass('bg_active bg_lop_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(4)').removeClass('bg_active bg_od_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(0)').removeClass('bg_active bg_cl_active');
+// 		});
+// 		$('.lms_col_first #leaveTypes ul li:eq(2)').click(function() {
+// 			$('.lms_col_first #leaveTypes ul li:eq(2)').addClass('bg_active bg_pl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(3)').removeClass('bg_active bg_lop_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(4)').removeClass('bg_active bg_od_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(0)').removeClass('bg_active bg_cl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(1)').removeClass('bg_active bg_cf_active');
+// 		});
+// 		$('.lms_col_first #leaveTypes ul li:eq(3)').click(function() {
+// 			$('.lms_col_first #leaveTypes ul li:eq(3)').addClass('bg_active bg_lop_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(4)').removeClass('bg_active bg_od_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(0)').removeClass('bg_active bg_cl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(1)').removeClass('bg_active bg_cf_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(2)').removeClass('bg_active bg_pl_active');
+			
+// 		});
+// 		$('.lms_col_first #leaveTypes ul li:eq(4)').click(function() {
+// 			$('.lms_col_first #leaveTypes ul li:eq(4)').addClass('bg_active bg_od_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(0)').removeClass('bg_active bg_cl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(1)').removeClass('bg_active bg_cf_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(2)').removeClass('bg_active bg_pl_active');
+// 			$('.lms_col_first #leaveTypes ul li:eq(3)').removeClass('bg_active bg_lop_active');
+// 		});
+// });

@@ -1,0 +1,5 @@
+2019-Jan-04 16:15:28 PM [main] INFO  com.photon.vms.Application - Starting Application on CHL104577 with PID 13224 (started by karthigaiselvan_r in C:\Users\karthigaiselvan_r\java workspace\vms)
+2019-Jan-04 16:15:28 PM [main] INFO  com.photon.vms.Application - No active profile set, falling back to default profiles: default
+2019-Jan-04 16:15:33 PM [main] INFO  com.photon.vms.Application - Started Application in 4.886 seconds (JVM running for 6.19)
+2019-Jan-04 16:15:40 PM [http-nio-9090-exec-1] INFO  com.photon.vms.dao.impl.ManagerReviewDAOImpl - Get Pending leave requestHikariProxyResultSet@528760701 wrapping SQLServerResultSet:2
+2019-Jan-04 16:15:40 PM [http-nio-9090-exec-1] INFO  com.photon.vms.controller.ReviewController - approve leave request: 257370,257371
